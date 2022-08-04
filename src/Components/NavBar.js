@@ -11,11 +11,11 @@ const NavBar = () => {
         <div className='navBar'>
             <img src={logo} alt="" />
             <div className='bootNav'>
-                <Navbar  expand="lg">
+                <Navbar expand="lg" className=''>
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
+                            <Nav className="me-auto ">
                                 <Nav.Link href="#home" className='top'>Instant Buy/Sell</Nav.Link>
                                 <Nav.Link  href="#link" className='top'>Learn</Nav.Link>
                                 <Nav.Link href="#link"><button className='navButton'>Log In</button></Nav.Link>

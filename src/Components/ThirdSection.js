@@ -1,7 +1,6 @@
 import React from 'react'
-import appStore from "./Images/Group 68.svg";
-import googlePlay from "./Images/Group 69.svg";
-
+import apple from './Images/Icon awesome-apple-1.svg'
+import google from './Images/Group 53.svg'
 const ThirdSection = () => {
     return (
         <div>
@@ -12,11 +11,18 @@ const ThirdSection = () => {
                 </div>
                 <div>
                 </div>
-                <button className="buttonF">Get Started</button>
+                <button className="buttonG">Get Started</button>
                 <div className="space"></div>
-                <div className="appButton">
-                    <img src={appStore} alt="" />
-                    <img src={googlePlay} alt="" />
+                <div className="appButton1">
+                    <button className='button1'>
+                        <img src={apple} alt="" />
+                        <p>download on the <br /><span className='span'>App Store</span>
+                        </p>
+                    </button>
+                    <button className='button2'>
+                        <img src={google} alt="" />
+                        <p>Get on <br /><span className='span'>Google Play</span> </p>
+                    </button>
                 </div>
             </div>
         </div>

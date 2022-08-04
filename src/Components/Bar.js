@@ -10,7 +10,7 @@ export const Bar = () => {
             <Container>
                 <Row className='row'>
                     <Col><h6>BTC/NGN <span>-3.21%</span></h6>
-                    <p>20,560.101.59NGN</p>
+                    <p>20,560.101.59NGN</p>    
                     </Col>
                     <Col><h6>USDT/NGN <span>+10.20%</span></h6>
                     <p>453.44NGN</p>
@@ -21,9 +21,6 @@ export const Bar = () => {
                     <Col><h6>LTC/NGN <span>-3.21%</span></h6>
                     <p>81,002.32NGN</p>
                     </Col>
-                    {/* <Col><h6>BTC/NGN <span>-3.21%</span></h6>
-                    <p>20,560.101.59NGN</p>
-                    </Col> */}
                 </Row>
                 </Container>
             </marquee>

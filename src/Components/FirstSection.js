@@ -12,7 +12,7 @@ const FirstSection = () => {
                 <div className="firstBuy">
                     <h1>Buy, sell and manage your Crypto on TradExpress.</h1>
                     <p>
-                    Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC & XRP with NGN.
+                        Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC & XRP with NGN.
                     </p>
                 </div>
                 <button className="buttonF">Get Started</button>

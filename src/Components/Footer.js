@@ -29,7 +29,9 @@ const Footer = () => {
                 )
                 )}
             </div>
-                <img className='gr' src={gr} alt="" />
+            <div className='gr'>
+                <img  src={gr} alt="" />
+            </div>
         </div>
     )
 }
