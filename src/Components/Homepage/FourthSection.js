@@ -1,6 +1,6 @@
 import React from 'react'
-import union from './Components/Images/Union 1.svg'
-import thumb from './Components/Images/pexels-riccardo-bertolo-4245826 (1).jpg'
+import union from '../Images/Union 1.svg'
+import thumb from '../Images/pexels-riccardo-bertolo-4245826 (1).jpg'
 
 const FourthSection = () => {
     return (

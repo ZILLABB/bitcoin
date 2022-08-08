@@ -1,6 +1,6 @@
 import React from "react";
-import wallet from "./Images/Group 52.svg";
-import stock from "./Images/Group 28.svg";
+import wallet from "../Images/Group 52.svg";
+import stock from "../Images/Group 28.svg";
 
 const SecondSection = () => {
     return (

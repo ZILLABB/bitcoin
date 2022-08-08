@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
 background: rgb(124,31,191);
-background: linear-gradient(90deg, rgba(124,31,191,1) 0%, rgba(44,15,65,0.9925012241224614) 78%);
+background: linear-gradient(90deg, rgba(124,31,191,1) 0%, rgba(55, 18, 81, 0.993) 78%);
 padding: 50px;
 
   
@@ -39,7 +39,7 @@ background-color:  rgba((44,15,65,0.9925012241224614) 70%);
 
 .firstSeg{
 background: rgb(124,31,191);
-background: linear-gradient(90deg, rgba(124,31,191,1) 0%, rgba(44,15,65,0.9925012241224614) 78%);
+background: linear-gradient(90deg, rgba(124,31,191,1) 0%, rgba(60, 20, 88, 0.993) 78%);
 padding: 3rem;
 
   
@@ -280,6 +280,171 @@ color: white;
   background-color:#ccc;
   
   
+}
+.form1{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 40%;
+  margin-left: 30%;
+  padding: 2rem;
+  /* margin: auto; */
+  text-align: center;
+  background: #f9efff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px 1px;
+
+}
+.clicking{
+  top: 746px;
+left: 496px;
+width: 450px;
+height: 48px;
+background: #7C20BF 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+border: none;
+color: white;
+margin-bottom: 1rem;
+}
+.click{
+  width: 82%;
+margin-bottom: 3.5rem;
+
+
+}
+.tuy{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  background-color: #E4E4E4;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-decoration: none;
+
+}
+.buy{
+  border-radius: 10px;
+  background-color: #E4E4E4;
+  width: 10rem;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.buyBus{
+   border-radius: 10px;
+  background-color: white;
+  width: 10rem;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+
+}
+.login{
+  /* width: 50%; */
+  margin: auto;
+  margin-top: 2rem;
+  border: 1px solid black;
+  padding: 4rem;
+width: 600px;
+height: 500px;
+/* UI Properties */
+background: #F9EFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #000000;
+opacity: 1;
+}
+.terms{
+  color: #7C20BF;
+}
+.loginDiv{
+  justify-content: center;
+  text-align: center;
+
+}
+.form-check{
+  width:40%;
+  
+}
+.mb-3{
+  border-bottom: 2rem;
+}
+.loginButton.btn.btn-primary{
+  background-color: #7C20BF;
+  border-radius: 8px;
+  opacity: 1;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  width: 450px;
+  height: 48px;
+}
+.buyPage{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  width: 50%;
+  padding: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+width: 500px;
+height: 550px;
+/* UI Properties */
+background: #F9EFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #000000;
+opacity: 1;
+}
+.toggler{
+  border: 1px solid black;
+  width: 50%;
+}
+.sectBtc{
+  width: 30%;
+}
+.coinBuy{
+width: 350px;
+height: 48px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.5px solid #E4E4E4;
+border-radius: 8px;
+opacity: 1;
+}
+.secButton{
+width: 350px;
+height: 48px;
+/* UI Properties */
+background: #7C20BF 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+border: none;
+color: white;
+}
+.confirmation{
+  /* Layout Properties */
+width: 500px;
+height: 700px;
+/* UI Properties */
+background: #F9EFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #000000;
+opacity: 1;
+margin: auto;
+margin-top: 4rem;
+margin-bottom: 4rem;
+justify-content: center;
+text-align: center;
+padding: 2rem;
+}
+.confirm{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
 }
 
 

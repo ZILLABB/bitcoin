@@ -1,6 +1,7 @@
 import React from 'react'
-import apple from './Images/Icon awesome-apple-1.svg'
-import google from './Images/Group 53.svg'
+import apple from '../Images/Icon awesome-apple-1.svg'
+import google from '../Images/Group 53.svg'
+
 const ThirdSection = () => {
     return (
         <div>

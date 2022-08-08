@@ -1,11 +1,15 @@
 import './App.css';
 import NavBar from './Components/NavBar';
-import FirstSection from './Components/FirstSection';
-import { Bar } from './Components/Bar';
-import SecondSection from './Components/SecondSection';
-import ThirdSection from './Components/ThirdSection';
-import FourthSection from './FourthSection';
 import Footer from './Components/Footer';
+import Page from './Components/Page';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Components/Homepage/Home';
+import PageBusiness from './Components/PageBusiness'
+import Login from './Components/Login';
+import Buy from './Components/Homepage/Buy';
+import Sell from './Components/Sell'
+import ConfirmationPage from './Components/ConfirmationPage';
+
 
 
 
@@ -15,13 +19,19 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <FirstSection />
-      <Bar />
-      <SecondSection />
-      <ThirdSection />
-      <FourthSection />
-      <Footer/>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/sign-Up' element={<Page />} />
+          <Route path='/business-sign-up' element={<PageBusiness />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/instant-buy' element={<Buy />} />
+          <Route path='/instant-sell' element={<Sell />} />
+          <Route path='/confirmation' element={<ConfirmationPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

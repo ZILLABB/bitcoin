@@ -1,6 +1,6 @@
 import React from "react";
-import appStore from "./Images/Group 68.svg";
-import googlePlay from "./Images/Group 69.svg";
+import appStore from "../Images/Group 68.svg";
+import googlePlay from "../Images/Group 69.svg";
 
 const FirstSection = () => {
     return (

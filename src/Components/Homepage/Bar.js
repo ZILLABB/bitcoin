@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export const Bar = () => {
+const Bar = () => {
     return (
         <div>
             <marquee behavior="fast" direction="left">
@@ -27,3 +27,6 @@ export const Bar = () => {
         </div>
     )
 }
+
+
+export default Bar;
